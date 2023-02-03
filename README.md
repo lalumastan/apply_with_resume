@@ -39,6 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ### References
 <ul>
+ <li><a href="https://apply-with-resume.vercel.app/">Live Demo</a></li>
  <li><a href="https://nextjs.org/learn">Interactive Next.js tutorial</a></li>
  <li><a href="https://nextjs.org/docs">Next.js Documentation</a></li>
  <li><a href="https://reactjs.org/">React</a></li> 
