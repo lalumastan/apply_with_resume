@@ -47,4 +47,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 </ul>
 
 ### Tutorial
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=W9DMucIB59w" target="_blank"><img src="http://img.youtube.com/vi/W9DMucIB59w/0.jpg" alt="Step by Step Final Tutorial to Integrate Employee Vaccination Report to the Web Application using Springboot, Thymeleaf and Pentaho Classic Reporting Engine" width="240" height="180" border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=4VXajxGMsmY" target="_blank"><img src="http://img.youtube.com/vi/4VXajxGMsmY/0.jpg" alt="Step by Step Tutorial to Create a Simple Web Application to Upload IT Job Skills using Next JS" width="240" height="180" border="10" /></a>
