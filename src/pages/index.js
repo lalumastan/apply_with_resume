@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useState } from 'react';
 
-const GETFORM_FORM_ENDPOINT = "${process.env.GETFORMIO}";
+const GETFORM_FORM_ENDPOINT = "<enter your getform.io endpoint here>";
 
 function Form() {
   const [errorMessage, setErrorMessage] = useState(null);
