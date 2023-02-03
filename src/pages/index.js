@@ -188,7 +188,7 @@ function Form() {
                   id="male"
                   onChange={handleChange()}
                   value="male"
-                  checked
+                  defaultChecked
                 />
                 <label className="form-check-label" htmlFor="male">
                   Male
