@@ -31,7 +31,7 @@ G -- Deploy and<br/>Test with<br/>Internet Browser --> I{Vercel<br/>https://appl
 <li>Open <a  href="http://localhost:3000">http://localhost:3000</a> with your browser to see the result.</li>
 <li>You can start editing the page by modifying <code>.../pages/index.js</code>. The page auto-updates as you edit the file.</li>
 </ul>
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses <a href="https://nextjs.org/docs/basic-features/font-optimization">next/font</a> to automatically optimize and load Inter, a custom Google Font.
 
 ### Deploy on Vercel
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
