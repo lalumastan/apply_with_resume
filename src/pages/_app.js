@@ -1,3 +1,5 @@
+import { GoogleAdSense } from "nextjs-google-adsense";
+
 import '@/styles/globals.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,5 +11,8 @@ export default function App({ Component, pageProps }) {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
 
-  return <Component {...pageProps} />
+  return <>
+    <GoogleAdSense publisherId="ca-pub-1521514346848136" />
+    <Component {...pageProps} />
+  </>
 }
