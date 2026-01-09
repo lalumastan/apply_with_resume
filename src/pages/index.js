@@ -205,6 +205,7 @@ function Form() {
                   <input
                     type="checkbox"
                     className="form-check-input"
+                    name="relocate"
                     id="relocate"
                     checked={checked}
                     onClick={(e) => setChecked(e.target.checked)}
