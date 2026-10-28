@@ -1,0 +1,27 @@
+{
+  "name": "apply_with_resume",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "formidable": "^3.5.1",
+    "next": "^16.1.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "resend": "^4.0.1"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  },
+  "devDependencies": {
+    "eslint": "^10.12.0"
+  }
+}

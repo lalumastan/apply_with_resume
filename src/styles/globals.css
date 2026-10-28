@@ -1,0 +1,139 @@
+/* ============================================================
+   iCS Discover — Apply with Résumé
+   Design language: "dossier" — a clean, numbered intake form,
+   the professional counterpart to the dark "session log" chat
+   console. Same type family and accent-teal for brand
+   continuity, flipped to a light, paper-toned surface suited
+   to a form people fill in carefully.
+   ============================================================ */
+
+:root {
+  /* Color */
+  --bg: #f4f6f4;
+  --surface: #ffffff;
+  --surface-2: #edf1ee;
+  --border: #dde3de;
+  --border-strong: #c3cdc5;
+  --text: #1b231f;
+  --text-dim: #57635c;
+  --text-faint: #8b968f;
+
+  --accent: #2f7d6e;
+  --accent-soft: rgba(47, 125, 110, 0.09);
+  --accent-strong: #235c51;
+  --accent-2: #e3a23c;
+  --accent-2-soft: rgba(227, 162, 60, 0.13);
+  --danger: #c4432e;
+  --danger-soft: rgba(196, 67, 46, 0.08);
+
+  /* Type */
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-sans: "IBM Plex Sans", -apple-system, "Segoe UI", sans-serif;
+
+  /* Rhythm */
+  --radius: 12px;
+  --radius-sm: 7px;
+  --shadow-panel: 0 20px 50px -30px rgba(27, 35, 31, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg);
+  background-image: radial-gradient(ellipse 900px 460px at 50% -8%, rgba(47, 125, 110, 0.06) 0%, transparent 60%);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: var(--font-mono);
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  display: block;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* ---------- ad slot ---------- */
+.ad-slot {
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto 28px;
+  padding: 10px 24px 4px;
+  min-height: 100px; /* reserves space so layout doesn't jump when the ad fills in */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ad-slot-label {
+  align-self: flex-start;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  margin-bottom: 6px;
+}
+
+.ad-slot .adsbygoogle {
+  width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
